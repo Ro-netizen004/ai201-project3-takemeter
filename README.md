@@ -2,6 +2,8 @@
 
 **AI201 · Project 3**
 
+**Demo video:** [https://streamable.com/6juaxa](https://streamable.com/6juaxa)
+
 TakeMeter classifies IMDb movie reviews as **negative** or **positive** based on overall sentiment. This repo contains the planning document, labeled dataset, Colab training notebook, and evaluation results comparing a fine-tuned DistilBERT model to a zero-shot Groq baseline.
 
 ---
@@ -220,6 +222,7 @@ The reviewer begins with praise ("started out good") before the review turns cri
 | `Copy_of_ai201_project3_takemeter_starter_clean.ipynb` | Colab training + evaluation notebook |
 | `evaluation/evaluation_results.json` | Exported metrics |
 | `evaluation/confusion_matrix.png` | Confusion matrix image (from Colab) |
+| [Demo video](https://streamable.com/6juaxa) | 3–5 min walkthrough of classifications and evaluation report |
 
 ---
 
@@ -244,8 +247,10 @@ The reviewer begins with praise ("started out good") before the review turns cri
 
 ## Demo Video
 
-Record a 3–5 minute walkthrough showing:
-- 3–5 reviews classified with label + confidence
-- One correct prediction explained
-- One incorrect prediction explained
-- Brief tour of this evaluation report
+**[Watch TakeMeter demo →](https://streamable.com/6juaxa)**
+
+The video shows:
+- 5 reviews classified by the fine-tuned model with label and confidence
+- One correct prediction explained (clear negative language)
+- One incorrect prediction explained (sarcastic wordplay misclassified as positive)
+- A brief walkthrough of the evaluation report (97.8% baseline vs 75.6% fine-tuned)
